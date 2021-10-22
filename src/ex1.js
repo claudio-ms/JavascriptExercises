@@ -13,7 +13,7 @@ if (lightSelected === redLight) {
 } else { 
 
     console.log('RUN!');
-}
+};
 
 /*output :
 Light selected is:redLight
