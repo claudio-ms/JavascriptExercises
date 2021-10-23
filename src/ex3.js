@@ -4,7 +4,7 @@
 
 const list = ['potatoes', 'beers', 'coke', 'coffe', 'bread'];
 
-//list. (l => console.log(l));
+list. map(l => console.log(l));
 
 
 
@@ -12,7 +12,7 @@ const list = ['potatoes', 'beers', 'coke', 'coffe', 'bread'];
 output: 
 potatoes
 beers
-coke
+coke                    
 coffe
 bread
 */
