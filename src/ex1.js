@@ -19,3 +19,9 @@ console.log('Light selected is: ' + lightSelected);
 Light selected is:redLight
 STOP! 
 */
+
+if (lightSelected === redLight) {
+    console.log('STOP!');
+} else { 
+    console.log('RUN!');
+}
