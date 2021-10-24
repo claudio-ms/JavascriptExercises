@@ -4,18 +4,15 @@
 const greenLight = 'green light';
 const redLight = 'red light';
 
-const lightSelected = 'red light';
+const lightSelected = 'green light';
 
 console.log('Light selected is: ' + lightSelected);
 
-//Si la luz es roja {
+if (lightSelected === 'red light'){
+
     console.log('STOP!');
-//} Si no, es verde { 
+    }
+    else if (lightSelected === 'green light'){
 
     console.log('RUN!');
-//}
-
-/*output :
-Light selected is:redLight
-STOP! 
-*/
+    }
