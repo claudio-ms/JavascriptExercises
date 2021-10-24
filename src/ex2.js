@@ -22,3 +22,11 @@ output:
 Actual sport: swiming
 time to put on the swimsuit!
 */
+
+if (sport === swiming) {
+    console.log('time to put on the swimsuit!');
+} else if (sport === running) { 
+    console.log('Lets take a ride!');
+}  else {  
+    console.log('run time!');
+}
