@@ -7,6 +7,10 @@ const list = ['potatoes', 'beers', 'coke', 'coffe', 'bread'];
 //list. (l => console.log(l));
 
 
+list.forEach((element) => {
+    console.log(element);
+});
+
 
 /*
 output: 
