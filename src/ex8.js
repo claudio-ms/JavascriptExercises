@@ -2,14 +2,15 @@
 
 const numbers = [0,7,4,6,13,24,21,678,987];
 
-/*numbers. (( ) => {
-    const lastValue = recoger el valor anterior;
-    Si el nuevo nuemro es mayor que el anteriot {
+numbers.map((num,i ) => {
+    const lastValue = numbers[i-1]; /* con el [i] lo que hacemos es determinar que 
+    ese valor va a ser la posicion del indice de cada valor al añadir el "-1" lo que dice es i vale 0 por lo que si le resto 1 */
+    if(num > lastValue ) {
         console.log( num + ' is bigger than ' + lastValue);
-    } Si no {
+    } else {
         console.log( num + ' is less than ' + lastValue);
     }
-} )*/
+} )
 
 /*
 output:
