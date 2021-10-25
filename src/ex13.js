@@ -20,7 +20,7 @@ const friends = [
 },
 ];
 
-//friends. (person =>  ). (p => console.log('Friend with name: ' +   + ' is older than 18'));
+friends.filter (person => person.age > 18 ).map(p => console.log('Friend with name: ' +  p.name + ' is older than 18'));
 
 /*
 output: 

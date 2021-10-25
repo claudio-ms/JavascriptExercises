@@ -3,7 +3,7 @@
 const array = [0,1,2,3,4,5,6,7,8,9,10];
 
 const result = []; 
-//array. ((num, index) => determinar posicion donde queremos insertar el nuevo numero = num);
+array.map((num, index) => result[(array.length-index) - 1] = num);
 
 console.log(result);
 
