@@ -8,7 +8,7 @@ const lightSelected = 'red light';
 
 console.log('Light selected is: ' + lightSelected);
 
-if(lightSelected ===redlight) {
+if (lightSelected === redLight) {
     console.log('STOP!');
 } else {
 
