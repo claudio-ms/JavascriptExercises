@@ -3,7 +3,7 @@
 const numbers = [3,7,8,10,12,15,24,32,17,21,25,26];
 
 
-const result = //numbers. ( ). (( ) => curr*acc);
+const result = numbers.filter(x => 10 <= x && x <=25).reduce((acc , curr) => curr*acc);//numbers. ( ). (( ) => curr*acc);
 
 console.log(result);
 
