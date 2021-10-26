@@ -4,8 +4,8 @@ const person = {
     age: 31
 };
 
-/*console.log('My full name is: ' +  + ' ' + );
-console.log('My age is: ' + );*/
+console.log('My full name is: ' + person.name + ' ' +person.surname );
+console.log('My age is: ' + person.age );
 
 /*
 output:
