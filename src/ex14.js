@@ -3,8 +3,9 @@
 
 const array1 = [1,2,3,4,5,6,7,8,9,0];
 const array2 = [0,9,8,7,6,5,4,3,2,1];
+const suma= (a , b ) => a + b;
 
-
+const result = array1.map ((n , i ) => console.log('El resultado es: ' + suma( n , array2[i] )))
 
 //const result = array1. (( ) => console.log('El resultado es: ' + suma( , )))
 
