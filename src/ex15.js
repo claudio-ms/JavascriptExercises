@@ -5,8 +5,15 @@
 const numbers = [23, 56, 64, 231, 928, 14, 7, 2990];
 
 const pairOrUnpair = x => {
+    if(x % 2 == 0){
+        return true;
+    }
+    else{
+        return false;
+    }
 
 };
+numbers.map(x => console.log('Number ' + x +' is pair? ' + pairOrUnpair(x)))
 
 //numbers. (x => console.log('Number ' +   + ' is pair? ' + pairOrUnpair( )));
 
