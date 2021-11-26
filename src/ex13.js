@@ -16,11 +16,16 @@ const friends = [
 },{
     name: 'Toni',
     surname: 'Romeu',
-    age:16
+    age:26
 },
 ];
 
 //friends. (person =>  ). (p => console.log('Friend with name: ' +   + ' is older than 18'));
+friends.map( item => {
+    if (item.age > 18) {
+        console.log(`Friends with name: ${item.name} is older than 18\n`);
+    }
+})
 
 /*
 output: 

@@ -1,8 +1,13 @@
 // Muestra el indice de la posición de los elementos de un array
-
 const array = ['map', 'filter', 'find', 'some', 'index', 'reduce' ];
 
 //array.map( => console.log('value: ' +  + ', has index: ' + ));
+
+array.map( x => console.log('value: ' + x + ', has index: ' + array.indexOf(x)));
+
+// array.map( x => console.log(`value: ${x}, has index:  ${array.indexOf(x)}`));
+
+// array.map( (item, index) => console.log(`value: ${item}, has index: ${index}`));
 
 /* 
 output: 
@@ -13,3 +18,7 @@ value: some, has index: 3
 value: index, has index: 4
 value: reduce, has index: 5
 */
+
+
+
+

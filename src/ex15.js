@@ -4,9 +4,14 @@
 
 const numbers = [23, 56, 64, 231, 928, 14, 7, 2990];
 
-const pairOrUnpair = x => {
-
-};
+// const pairOrUnpair = x => {
+const pairOrUnpair = numbers.map(x => {
+        if (x % 2 === 0) {
+            console.log(`Number ${x} is pair ? true`);
+        } else {
+            console.log(`Number ${x} is pair ? false`);
+        }
+    });
 
 //numbers. (x => console.log('Number ' +   + ' is pair? ' + pairOrUnpair( )));
 

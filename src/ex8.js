@@ -1,6 +1,5 @@
 //Determina si el valor actual es mayor o menor que el anterior
 
-const numbers = [0,7,4,6,13,24,21,678,987];
 
 /*numbers. (( ) => {
     const lastValue = recoger el valor anterior;
@@ -10,6 +9,22 @@ const numbers = [0,7,4,6,13,24,21,678,987];
         console.log( num + ' is less than ' + lastValue);
     }
 } )*/
+const numbers = [0,7,4,6,13,24,21,678,987];
+
+numbers.map( (item, index) => {
+    const lastValue = numbers[index-1];
+    if (item > lastValue) {
+        // console.log( num + ' is bigger than ' + lastValue);
+        console.log(item + ' is bigger than ' + lastValue);
+    }else {
+        console.log(item + ' is less than ' + lastValue);
+
+        // console.log( num + ' is less than ' + lastValue);
+    }
+});
+// let lastValue = numbers.map(number => (numbers[number]));
+    // lastValue = number;
+
 
 /*
 output:

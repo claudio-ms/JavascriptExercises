@@ -16,6 +16,19 @@ const lights = ['greenLight','redLight','greenLight','greenLight','redLight','gr
     
 });*/
 
+lights.map(light => {
+    console.log('Light selected is:' + light);
+    
+    if (light === 'redLight') {
+        console.log('STOP!');
+    }else {
+        console.log('RUN!');
+    }
+})
+//  console.log(x));
+    
+ 
+
 /*output: 
 Light selected is:greenLight
 RUN!
